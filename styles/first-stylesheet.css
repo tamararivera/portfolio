@@ -46,3 +46,14 @@ footer {
   width: 100%;
   text-align: center;
 }
+
+#projects-list {
+  list-style: none;
+}
+
+#projects-list li {
+  padding: 1rem;
+  box-shadow: 10px 10px 5px grey;
+  background: #FCFCFC;
+  margin-bottom: 1rem;
+}
