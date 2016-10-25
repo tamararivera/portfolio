@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 nav {
@@ -36,6 +37,8 @@ main {
   width: 80%;
   margin-left: 10%;
   flex: 1;
+  background: #F7F7F7;
+  padding: 0.5rem;
 }
 
 footer {
