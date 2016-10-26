@@ -57,3 +57,13 @@ footer {
   background: #FCFCFC;
   margin-bottom: 1rem;
 }
+
+#index-image {
+  background: white;
+  padding: 0.5rem 0.5rem 2rem 0.5rem;
+  box-shadow: 5px 5px 5px grey;
+  -ms-transform: rotate(25deg); /* IE 9 */
+  -webkit-transform: rotate(25deg); /* Safari */
+  transform: rotate(25deg);
+  margin-left: 50%
+}
