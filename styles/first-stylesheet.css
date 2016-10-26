@@ -45,6 +45,7 @@ footer {
   background: #FFE8F3;
   width: 100%;
   text-align: center;
+  font-size: 0.75rem;
 }
 
 #projects-list {
@@ -53,9 +54,20 @@ footer {
 
 #projects-list li {
   padding: 1rem;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 5px 5px 5px grey;
   background: #FCFCFC;
   margin-bottom: 1rem;
+}
+
+#projects-list li img {
+  margin-left: 25%;
+  opacity: 0.75;
+  filter: alpha(opacity=75); /* IE8 and earlier */
+}
+
+#projects-list li img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* IE8 and earlier */
 }
 
 #index-image {
