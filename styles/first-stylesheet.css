@@ -81,5 +81,12 @@ footer {
   -ms-transform: rotate(25deg); /* IE 9 */
   -webkit-transform: rotate(25deg); /* Safari */
   transform: rotate(25deg);
-  margin-left: 50%
+  margin-left: 50%;
+  -webkit-transition: -webkit-transform 2s; /* Safari */
+  transition: transform 2s;
+}
+
+#index-image:hover {
+  -webkit-transform: rotate(50deg); /* Safari */
+  transform: rotate(50deg);
 }
