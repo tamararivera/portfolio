@@ -59,6 +59,10 @@ footer {
   margin-bottom: 1rem;
 }
 
+#projects-list li h1:hover {
+  text-shadow: 1px 1px 3px pink;
+}
+
 #projects-list li img {
   margin-left: 25%;
   opacity: 0.75;
