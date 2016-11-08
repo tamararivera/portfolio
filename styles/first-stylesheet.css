@@ -79,8 +79,17 @@ footer {
   background: linear-gradient(white, #FFE8F3); /* Standard syntax */
 }
 
+#projects-list article {
+  overflow: hidden;
+}
+
+#projects-list li p {
+  float: left;
+  width: 64%;
+}
+
 #projects-list li img {
-  margin-left: 25%;
+  float: right;
   opacity: 0.75;
   filter: alpha(opacity=75); /* IE8 and earlier */
 }
