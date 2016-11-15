@@ -74,10 +74,20 @@ footer {
   box-shadow: 5px 5px 5px grey;
   margin-bottom: 1rem;
   background: #FCFCFC;
+}
+
+#projects-list li:nth-child(even) {
   background: -webkit-linear-gradient(white, #FFE8F3); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(white, #FFE8F3); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(white, #FFE8F3); /* For Firefox 3.6 to 15 */
   background: linear-gradient(white, #FFE8F3); /* Standard syntax */
+}
+
+#projects-list li:nth-child(odd) {
+  background: -webkit-linear-gradient(#FFE8F3, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FFE8F3, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FFE8F3, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FFE8F3, white); /* Standard syntax */
 }
 
 #projects-list article {
