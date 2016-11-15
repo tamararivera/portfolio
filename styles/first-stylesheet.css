@@ -24,10 +24,11 @@ nav ul {
 
 nav ul li {
   padding: 1em;
+  transition: all 1s;
 }
 
 nav ul li:hover {
-  background: #FF57A5;
+  background: #E33B89;
 }
 
 nav ul li a {
