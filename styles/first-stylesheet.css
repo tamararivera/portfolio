@@ -89,25 +89,20 @@ footer {
   background: -moz-linear-gradient(#FFE8F3, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#FFE8F3, white); /* Standard syntax */
 }
-
+/*
 #projects-list article {
   overflow: hidden;
 }
-
+*/
+/*
 #projects-list li p {
   float: left;
   width: 64%;
 }
+*/
 
 #projects-list li img {
-  float: right;
-  opacity: 0.75;
-  filter: alpha(opacity=75); /* IE8 and earlier */
-}
-
-#projects-list li img:hover {
-  opacity: 1.0;
-  filter: alpha(opacity=100); /* IE8 and earlier */
+  width: 100%;
 }
 
 #index-image {
