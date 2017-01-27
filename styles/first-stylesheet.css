@@ -126,10 +126,6 @@ footer {
   -ms-transform: translate(-50%, -50%);
 }
 
-#projects-list article {
-  position: relative;
-}
-
 #projects-list li img {
   display: block;
   width: 100%;
