@@ -45,14 +45,14 @@ main {
 
 main a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
-
+/*
 main a:hover {
   text-shadow: 1px 1px 3px pink;
   color: #FF66AD;
 }
-
+*/
 footer {
   background: #FFE8F3;
   width: 100%;
@@ -72,8 +72,10 @@ footer {
 #projects-list li {
   padding: 1rem;
   box-shadow: 5px 5px 5px grey;
-  margin-bottom: 1rem;
+  margin: 1rem;
   background: #FCFCFC;
+  float: left;
+  width: 43%;
 }
 
 #projects-list li:nth-child(even) {
@@ -89,20 +91,49 @@ footer {
   background: -moz-linear-gradient(#FFE8F3, white); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#FFE8F3, white); /* Standard syntax */
 }
-/*
-#projects-list article {
+
+.overlay-parent {
+  position: relative;
+}
+
+.overlay-parent:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 102, 173, 0.95);
+}
+
+.overlay div{
+  text-align: center;
+  width: 100%; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
   overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
-*/
-/*
-#projects-list li p {
-  float: left;
-  width: 64%;
+
+#projects-list article {
+  position: relative;
 }
-*/
 
 #projects-list li img {
+  display: block;
   width: 100%;
+  height: auto;
 }
 
 #index-image {
