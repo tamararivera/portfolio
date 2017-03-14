@@ -148,3 +148,22 @@ footer {
   -webkit-transform: rotate(385deg); /* Safari */
   transform: rotate(385deg);
 }
+
+.considerations {
+  background: white;
+  box-shadow: 5px 5px 5px grey;
+  margin-bottom: 5px;
+}
+
+.considerations article {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.considerations li {
+  padding-bottom: 1rem;
+}
+
+.date {
+  float: right;
+}
