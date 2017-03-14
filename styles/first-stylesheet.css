@@ -156,8 +156,12 @@ footer {
 }
 
 .considerations article {
-  padding: 1rem;
+  padding: 3rem;
   text-align: justify;
+}
+
+.considerations header {
+  font-size: 2.5rem;
 }
 
 .considerations li {
@@ -166,4 +170,8 @@ footer {
 
 .date {
   float: right;
+}
+
+.pink {
+  color: #FF66AD;
 }

@@ -18,29 +18,41 @@
       <article>
         <div class="date">March 14th, 2017</div>
         <header>
-          <h1>What I would consider when building a multilingual website</h1>
+          <h1 class="pink">What I would consider when building a multilingual website</h1>
         </header>
-        <p>Anyone who has tried to build a multilingual website, knows that it’s a really big endeavor, there is so many moving parts and so many decisions to make that it can be overwhelming. So after some research I came up with a list of aspects to consider before start to building the website.</p>
+        <p>Anyone who has tried to build a multilingual website <a href="#foot-note" class="pink"><i class="fa fa-asterisk" aria-hidden="true"></i></a>, knows that it’s a really big endeavor, there is so many moving parts and so many decisions to make that it can be overwhelming. So after some research I came up with a list of aspects to consider before start to building the website.</p>
         <p>For simplicity I have separated this aspects in two big categories, the first one, has the considerations from the user stand point and the second has the ones from the developers point of view.</p>
         <h3>User experience</h3>
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-angle-double-right"></i><span>Translated by humans:</span> as today, the automatic translating technologies are pretty good, but not good enough so you might end with a translation that is not completely accurate, and that in the long run can be more expensive than hire a native speaker for each market that you are targeting.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Work with markets no countries: some languages are use on many countries and with many differences and sometimes countries don’t have a main language that’s why you should target markets and not countries.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Change the language: you should give the option to easily change the language from every page, also you should refer to each language in the way that native speakers refer to their language, for example, when referring to Spanish, it should say Español.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Fonts: if you are targeting markets that use an alphabet that is not the main one on your design, you should keep in mind that it maybe more verbose and make some elements use two lines instead of one or maybe you would need to adjust the font size for better readability or maybe it uses the oposite direction of your design, your site should be able to adapt.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Which language?: here you have a couple of choices, you could decide based on the url (if it has the language info on it), you could ask the user or you could just detect the user language based on the browser preferences. I personally prefer to being asked once and then the site should rememberer my decision on future visits.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>The right format: make sure that you are displaying dates on the format corresponding to the market (month or day first? for example) and also check that when you provide phone numbers they include the country code too.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Cultural aspects: consider if your images are culturally appropriate for each market and that they convey the right idea.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>External elements: make sure that your captchas, social media buttons and any other embedded element correspond with the market that you are targeting.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i><span>Translated by humans:</span> as today, the automatic translating technologies are pretty good, but not good enough so you might end with a translation that is not completely accurate, and that in the long run can be more expensive than hire a native speaker for each market that you are targeting.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Work with markets no countries: some languages are use on many countries and with many differences and sometimes countries don’t have a main language that’s why you should target markets and not countries.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Change the language: you should give the option to easily change the language from every page, also you should refer to each language in the way that native speakers refer to their language, for example, when referring to Spanish, it should say Español.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Fonts: if you are targeting markets that use an alphabet that is not the main one on your design, you should keep in mind that it maybe more verbose and make some elements use two lines instead of one or maybe you would need to adjust the font size for better readability or maybe it uses the oposite direction of your design, your site should be able to adapt.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Which language?: here you have a couple of choices, you could decide based on the url (if it has the language info on it), you could ask the user or you could just detect the user language based on the browser preferences. I personally prefer to being asked once and then the site should rememberer my decision on future visits.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>The right format: make sure that you are displaying dates on the format corresponding to the market (month or day first? for example) and also check that when you provide phone numbers they include the country code too.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Cultural aspects: consider if your images are culturally appropriate for each market and that they convey the right idea.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>External elements: make sure that your captchas, social media buttons and any other embedded element correspond with the market that you are targeting.</li>
         </ul>
         <h3>Developers</h3>
         <ul class="fa-ul">
-          <li><i class="fa-li fa fa-angle-double-right"></i>Configuration for each site: You should use a config file that allows you or your team to configure each of your sites without any manual changes. Like setting the lang and the dir attributes on your HTML.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Dictionary: you should make a dictionary like component that automatically translates each word or phrase of your interfase into the correct language.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Flip the layout: when the direction of the text it’s the opposite from the one on your original design, you could use Sass to flip all the elements on your layout almost seamlessly.</li>
-          <li><i class="fa-li fa fa-angle-double-right"></i>Add media queries: some languages are more verbose than others, so you could add some media queries to prevent the disarray of your design (again, Sass can help you keep your css clean and elegant).</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Configuration for each site: You should use a config file that allows you or your team to configure each of your sites without any manual changes. Like setting the lang and the dir attributes on your HTML.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Dictionary: you should make a dictionary like component that automatically translates each word or phrase of your interfase into the correct language.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Flip the layout: when the direction of the text it’s the opposite from the one on your original design, you could use Sass to flip all the elements on your layout almost seamlessly.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Add media queries: some languages are more verbose than others, so you could add some media queries to prevent the disarray of your design (again, Sass can help you keep your css clean and elegant).</li>
         </ul>
         <p>Thank you for reading and if you have any comments, please let me know!</p>
+        <h3>Foot note</h3>
+        <p id="foot-note">By multilingual website I mean a website where the content of the website is created by the owner (or a team of developers) and not by the public. Examples of sites with content created by their users are a forum, a social media site, a reviews section or a comments section. In this kind of escenarios the owner has little control over the content and I wouldn’t recommend translate other people words. </p>
+        
+        <h3>Sources</h3>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>
+            <a class="pink" href="https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708" target="_blank">https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708</a>
+          </li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>
+            <a class="pink" href="http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design" target="_blank">http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design</a>
+          </li>
+        </ul>
       </article>
     </main>
     <footer>
