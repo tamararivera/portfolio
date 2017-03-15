@@ -18,8 +18,13 @@ nav {
 
 nav ul {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   margin: 0;
+}
+
+nav ul div {
+  display: inherit;
 }
 
 nav ul li {
