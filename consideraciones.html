@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Algunos aspectos que considerar al construir un sitio multilenguaje - Tamara Rivera</title>
+    <script src="https://use.fontawesome.com/728dc040fb.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="./index.html"><i class="fa fa-info"></i> About me</a></li>
+        <li><a href="./projects.html"><i class="fa fa-briefcase"></i> Projects</a></li>
+      </ul>
+    </nav>
+    <main class="considerations">
+      <article>
+        <div class="date">14 de Marzo de 2017</div>
+        <header>
+          <h1 class="pink">Lo que consideraría al construir un sitio multilenguaje</h1>
+        </header>
+        <p>Cualquiera que haya tratado de construir un sitio multilenguaje <a href="#foot-note" class="pink"><i class="fa fa-asterisk" aria-hidden="true"></i></a>, sabe que requiere de un esfuerzo muy grande, hay tantas partes móviles que considerar y tantas decisiones que tomar que puede ser abrumador. Entonces, luego de algo de investigación he creado esta lista de aspectos que se deben considerar antes de empezar a construir el sitio web.</p>
+        <p>Por simplicidad, he separado estos aspectos en 2 grandes categorias, la primera tiene las consideraciones del punto de vista del usuario y la segunda, el de los developers.</p>
+        <h3>Experiencia de usuario</h3>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i><span>Traducidos por personas:</span> actualmente, las herramientas de traducción automática son bastante buenas, pero no lo suficiente, lo que puede resultar en traducciones no del todo correctas, lo que a la larga puede ser más costoso que contratar a alguien que hable el idioma de cada mercado al que se quiere llegar.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Trabaja con mercados, no países: algunos idiomas se hablan en más de un país y con mucha variación, y por otro lado existen países que no tienen sólo un idioma, es por esto que los sitios no deberían mostrar banderas al seleccionar el idioma.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Cambiar el idioma: deberías tener la opción de facílmente cambiar de idioma sin tener que volver a la página principal y también deberías referirte a cada idioma de la manera que la gente que habla nativamente el idioma lo hace, por ejemplo, cuando se habla de Inglés, debería decir English.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Fuentes: si quieres llegar a mercados que usan un alfabeto distinto al del diseño original, deberías tener en cuenta que estos pueden ser más verbosos o quizás tendrás que ajustar el tamaño de las letras para lograr una mejor legibilidad o si este lenguaje se escribe en la dirección opuesta del diseño original, tu sitio tiene que ser capaz de adaptarse.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>¿Cómo elegir el lenguaje?: en este caso existen múltiples alternativas, puedes determinarlo por la url (en el caso de que contenga información sobre el lenguaje), puedes preguntarle al usuario o puedes detectar el idioma, usando el idioma del browser. Yo personalmente prefiero que se me pregunte una vez y que luego recuerde mi elección.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>El formato correcto: asegúrate de que estás mostrando las fechas en el formato correcto (¿Día o mes primero?) y también verifica que los teléfonos de contacto tengan el código de país.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Aspectos culturales: considera si tus imágenes son culturalmente apropiadas para cada mercado y si transmiten la idea correcta.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Elementos externos: asegúrate que tus captchas, los botones de redes sociales y cualquier otro elemento externo corresponda con el mercado que estás apuntando.</li>
+        </ul>
+        <h3>Desarrolladores</h3>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Configuración de cada sitio web: deberías usar un archivo de configuración para cada sitio que te permita a tí, o a tu equipo, configurar cada uno de tus sitios sin realizar cambios manuales. Como por ejemplo, establecer el atributo de idioma en tu HTML.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Dictionary: deberías tener un componente tipo diccionario que permita la tradución automática al idioma indicado de cada palabra o frase de tu interfaz.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Voltear el diseño: cuando la dirección del texto es la opuesta a la del diseño original, podrías usar Sass para invertir la dirección de todos tus elementos sin mayores problemas.</li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>Añade media queries: algunos lenguajes son más verbosos que otros, entonces deberías añadir nuevas media queries dependiendo del idioma utilizado (nuevamente, Sass puede ser de gran ayuda para lograr ésto de forma limpia y elegante).</li>
+        </ul>
+        <p>Muchas gracias por leer y si tienes algún comentario, por favor házmelo saber.</p>
+        <h3>Nota al píe</h3>
+        <p id="foot-note">Por sitio web multilenguaje, me refiero a un sitio web donde el contenido del sitio es creado por el propietario (o un equipo de desarrolladores) y no por el público. Ejemplos de sitios con contenido creado por sus usuarios son un foro, un sitio de redes sociales, una sección de reviews o una sección de comentarios. En este tipo de escenarios el propietario tiene poco control sobre el contenido y no recomendaría traducir palabras de otras personas.</p>
+        
+        <h3>Fuentes</h3>
+        <ul class="fa-ul">
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>
+            <a class="pink" href="https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708" target="_blank">https://webdesign.tutsplus.com/articles/tips-for-designing-and-building-a-multilingual-website--cms-24708</a>
+          </li>
+          <li><i class="fa-li fa fa-angle-double-right" aria-hidden="true"></i>
+            <a class="pink" href="http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design" target="_blank">http://responsivenews.co.uk/post/123104512468/13-tips-for-making-responsive-web-design</a>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Tamara Rivera</p>
+    </footer>
+  </body>
+</html>
