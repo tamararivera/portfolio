@@ -81,7 +81,7 @@ footer {
 }
 
 #projects-list li {
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 5px 5px 5px grey;
   background: #FCFCFC;
   width: 43%;
